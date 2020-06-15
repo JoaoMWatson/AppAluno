@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
             //Inserindo dados na tabela
             bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Maria','maria5203@gmail.com','1191236578')");
             bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('João','joao1365@gmail.com','11984751935')");
-            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Tales','tales9575@gmail.com','11993857644')");
-            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Joana','joana9255@gmail.com','11911980364')");
-            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Joaquim','joaquim8465@gmail.com','11987457661')");
-            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Josefina','josefina0465@gmail.com','11919998564')");
-            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Márcio','marcio1074@gmail.com','11964839944')");
-            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Iradi','iradi1195@gmail.com','11983755778')");
+            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Ropgerio','tales9575@gmail.com','11993857644')");
+            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('João Pedo','joana9255@gmail.com','11911980364')");
+            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Ana','joaquim8465@gmail.com','11987457661')");
+            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Bruno','josefina0465@gmail.com','11919998564')");
+            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Marcela','marcio1074@gmail.com','11964839944')");
+            bd.execSQL("INSERT INTO tbAluno(nome,email,telefone)VALUES('Natalya','iradi1195@gmail.com','11983755778')");
 
             //Buscando os dados na tabela
             Cursor cursor = bd.rawQuery("SELECT nome, email, telefone FROM tbPessoas", null);
